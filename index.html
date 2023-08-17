@@ -89,6 +89,25 @@
             <tr aria-label="Twentieth pin."   ><th>21</th><td class="gpio">GP16</td>                                <td class="spi" title="SPI 0: Host-receive">SPI0 RX</td>     <td class="i2c" title="I2C 0: Data">I2C0 SDA</td>             <td class="uart" title="UART 0: Transmit">UART0 TX</td>                  <td class="pwm advanced" title="PWM 0: Channel A">PWM0 A</td></tr>
             </tbody>
         </table>
+        <table class="labels below advanced">
+            <tbody>
+                <tr><td aria-label="Left debug pin.">SWCLK</td><td aria-label="Middle debug pin.">GND</td><td aria-label="Right debug pin.">SWDIO</td></tr>
+            </tbody>
+        </table>
+    </article>
+    <article class="extra advanced">
+        <table aria-label="Additional pin definitions.">
+            <thead>
+                <th scope="col">Pin</th><th scope="col">Function</th><th scope="col">Notes</th>
+            </thead>
+            <tbody>
+                <tr><td>GP23</td><td>RT6150B-33GQW Power-Select</td><td>LOW (default) for high efficiency (PFM)<br>HIGH for improved ripple (PWM)</td></tr>
+                <tr><td>GP24</td><td>VBUS Sense</td><td>Detect USB power or VBUS pin</td></tr>
+                <tr><td>GP25</td><td>User LED</td><td></td></tr>
+                <tr><td>GP29 / A3</td><td>VSYS Sense</td><td>Read VSYS/3 through resistor divider and FET Q1</td></tr>
+                <tr><td>A4</td><td>Temperature</td><td>Read onboard temperature sensor</td></tr>
+            </tbody>
+        </table>
     </article>
     <article class="extra advanced">
         <table aria-label="Additional pin definitions.">
